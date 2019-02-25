@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM xianzixiang/alpine
 
 RUN apk add --no-cache python3 && \
     python3 -m ensurepip && \
